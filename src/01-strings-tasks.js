@@ -139,7 +139,7 @@ function removeFirstOccurrences(str, value) {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-  return str.replaceAll(/\<|\>/g, '');
+  return str.replaceAll(/[<|>]/g, '');
 }
 
 /**
@@ -200,8 +200,8 @@ function extractEmails(str) {
  */
 function getRectangleString(width, height) {
   let result = '';
-  for (i = 1; i <= height; i++) {
-    for (j = 1; j <= width; j++) {
+  for (let i = 1; i <= height; i += 1) {
+    for (let j = 1; j <= width; j += 1) {
       if (i === 1) {
         if (j === 1) result += '┌';
         else if (j === width) result += '┐\n';
