@@ -7,7 +7,6 @@
  *                                                                                           *
  ******************************************************************************************* */
 
-
 /**
  * Returns an area of a rectangle given by width and height.
  *
@@ -20,9 +19,8 @@
  *   5, 5  => 25
  */
 function getRectangleArea(/* width, height */) {
-  throw new Error('Not implemented');
-}
 
+}
 
 /**
  * Returns a circumference of circle given by radius.
@@ -36,7 +34,7 @@ function getRectangleArea(/* width, height */) {
  *   0    => 0
  */
 function getCircleCircumference(/* radius */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -52,7 +50,7 @@ function getCircleCircumference(/* radius */) {
  *  -3, 3  => 0
  */
 function getAverage(/* value1, value2 */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -71,7 +69,7 @@ function getAverage(/* value1, value2 */) {
  *   (-5,0) (10,-10) => 18.027756377319946
  */
 function getDistanceBetweenPoints(/* x1, y1, x2, y2 */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -87,9 +85,8 @@ function getDistanceBetweenPoints(/* x1, y1, x2, y2 */) {
  *   5*x = 0         => 0
  */
 function getLinearEquationRoot(/* a, b */) {
-  throw new Error('Not implemented');
-}
 
+}
 
 /**
  * Returns an angle (in radians) between two vectors given by xi and yi,
@@ -110,7 +107,7 @@ function getLinearEquationRoot(/* a, b */) {
  *   (0,1) (1,2)     => 0
  */
 function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -126,9 +123,8 @@ function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
  *     0     => 0
  */
 function getLastDigit(/* value */) {
-  throw new Error('Not implemented');
-}
 
+}
 
 /**
  * Returns a number by given string representation.
@@ -142,7 +138,7 @@ function getLastDigit(/* value */) {
  * '-525.5'     => -525.5
  */
 function parseNumberFromString(/* value */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -159,9 +155,8 @@ function parseNumberFromString(/* value */) {
  *   1,2,3   => 3.741657386773941
  */
 function getParallelepipedDiagonal(/* a, b, c */) {
-  throw new Error('Not implemented');
-}
 
+}
 
 /**
  * Returns the number rounded to specified power of 10.
@@ -181,7 +176,7 @@ function getParallelepipedDiagonal(/* a, b, c */) {
  *   1678, 3  => 2000
  */
 function roundToPowerOfTen(/* num, pow */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -202,7 +197,7 @@ function roundToPowerOfTen(/* num, pow */) {
  *   17 => true
  */
 function isPrime(/* n */) {
-  throw new Error('Not implemented');
+
 }
 
 /**
@@ -221,7 +216,7 @@ function isPrime(/* n */) {
  *   toNumber(new Number(42), 0) => 42
  */
 function toNumber(/* value, def */) {
-  throw new Error('Not implemented');
+
 }
 
 module.exports = {
